@@ -164,7 +164,10 @@ public:
         convertSeed6(vFixedSeeds, pnSeed6_main, ARRAYLEN(pnSeed6_main));
         vFixedSeeds.clear();
         vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("mkt-coin.com", "seeds2.mkt-coin.com"));
+        vSeeds.push_back(CDNSSeedData("vps-565c969f.vps.ovh.net", "vps-565c969f.vps.ovh.net"));
+        vSeeds.push_back(CDNSSeedData("vps-11e7cba6.vps.ovh.net", "vps-11e7cba6.vps.ovh.net"));
+        vSeeds.push_back(CDNSSeedData("vps-1254e315.vps.ovh.ca", "vps-1254e315.vps.ovh.ca"));
+        vSeeds.push_back(CDNSSeedData("vps-4b4af9c7.vps.ovh.net", "vps-4b4af9c7.vps.ovh.net"));
 
         fPowNoRetargeting = false;
         fRequireRPCPassword = true;
